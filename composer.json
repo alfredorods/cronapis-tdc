@@ -1,0 +1,18 @@
+{
+    "name": "cronapis/payment_dateway",
+    "description": "package to process payments with metropago",
+    "require": {
+        "php": ">7.0.0"
+    },
+    "authors": [
+        {
+            "name": "Alfredo",
+            "email": "alfredorods@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4":{
+          "Cronapis\\": "src"
+        }
+    }
+}
