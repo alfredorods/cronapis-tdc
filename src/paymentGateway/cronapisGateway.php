@@ -67,7 +67,7 @@
           $customerFilters->SearchOption=$customerSearchOptions;
           $response_customers = $this->CustManager->SearchCustomer($customerFilters);
          
-          return ($response_customers[0] ? (object) $response_customers[0] : false);
+          return ($response_customers ? (object) $response_customers[0] : false);
       }
       
       public function pay($customer, $token,$amount){
