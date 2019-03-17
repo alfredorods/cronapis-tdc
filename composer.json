@@ -1,5 +1,5 @@
 {
-    "name": "cronapis/payment_gateway",
+    "name": "cronapis/metropago_gateway",
     "description": "package to process payments with metropago",
     "require": {
         "php": ">7.0.0"
