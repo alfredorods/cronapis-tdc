@@ -23,7 +23,7 @@
         
         
         $customer = new Customer();
-        $customer->UniqueIdentifier = "INBOX-fasd183asdasfasdaaa81ejasdahsjklasd";
+        $customer->UniqueIdentifier = $identifier;
         $customer->FirstName =$name;
         $customer->LastName = $lastname;
         $customerResult = $this->CustManager->AddCustomer($customer);
